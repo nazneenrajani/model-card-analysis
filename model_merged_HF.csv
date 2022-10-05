@@ -1,0 +1,37 @@
+model_id,downloads (as of late June 2022),who is leading the model card development?,model card status (early june 2022),Model card creation/update status,Link to PR/new card (if exists),Notes
+bert-base-chinese,2411156.0,Ezi,no model card,Completed,https://huggingface.co/bert-base-chinese/discussions,Merged 
+xlm-mlm-100-1280,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-100-1280/discussions/1,Merged 
+xlm-mlm-17-1280,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-17-1280/discussions/1,Merged 
+xlm-mlm-en-2048,23473.0,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-en-2048/discussions/1,Merged 
+xlm-mlm-tlm-xnli15-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-tlm-xnli15-1024/discussions/1,Merged 
+xlm-mlm-xnli15-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-xnli15-1024/discussions/1,Merged 
+ctrl,15675.0,Marissa,no model card,Completed,https://huggingface.co/ctrl/discussions/1,Merged 
+distilbert-base-cased-distilled-squad,470977.0,Marissa,no model card,Completed,https://huggingface.co/distilbert-base-cased-distilled-squad/discussions/1,Merged 
+distilbert-base-uncased-distilled-squad,35774.0,Marissa,no model card,Completed,https://huggingface.co/distilbert-base-uncased-distilled-squad/discussions/1,Merged 
+gpt2-large,300791.0,Marissa,no model card,Completed,https://huggingface.co/gpt2-large/discussions/1/files,Merged 
+gpt2-medium,564199.0,Marissa,no model card,Completed,https://huggingface.co/gpt2-medium/discussions/1,Merged 
+openai-gpt,99291.0,Marissa,no model card,Completed,https://huggingface.co/openai-gpt/discussions/1,Merged 
+roberta-base-openai-detector,,Marissa,no model card,Completed,https://huggingface.co/roberta-base-openai-detector/discussions/2,Merged 
+roberta-large-mnli,312605.0,Marissa,no model card,Completed,https://huggingface.co/roberta-large-mnli/discussions/1,Merged 
+roberta-large-openai-detector,,Marissa,no model card,Completed,https://huggingface.co/roberta-large-openai-detector/discussions/1/files,Merged 
+transfo-xl-wt103,16359.0,Ezi,no model card,Completed,https://huggingface.co/transfo-xl-wt103/discussions/1,Merged 
+xlm-clm-ende-1024,26370.0,Marissa,no model card,Completed,https://huggingface.co/xlm-clm-ende-1024/discussions/1,Merged 
+xlm-clm-enfr-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-clm-enfr-1024/discussions/1/files,Merged 
+xlm-mlm-ende-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-ende-1024/discussions/1,Merged 
+xlm-mlm-enfr-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-enfr-1024/discussions/1,Merged 
+xlm-mlm-enro-1024,,Marissa,no model card,Completed,https://huggingface.co/xlm-mlm-enro-1024/discussions/1,Merged 
+xlm-roberta-large-finetuned-conll02-dutch,,Marissa,no model card,Completed,https://huggingface.co/xlm-roberta-large-finetuned-conll02-dutch/discussions/1,Merged 
+xlm-roberta-large-finetuned-conll02-spanish,,Marissa,no model card,Completed,https://huggingface.co/xlm-roberta-large-finetuned-conll02-spanish/discussions/1,Merged 
+xlm-roberta-large-finetuned-conll03-english,2040094.0,Marissa,no model card,Completed,https://huggingface.co/xlm-roberta-large-finetuned-conll03-english/discussions/3,Merged 
+xlm-roberta-large-finetuned-conll03-german,,Marissa,no model card,Completed,https://huggingface.co/xlm-roberta-large-finetuned-conll03-german/discussions/1,Merged 
+distilbert-base-uncased-finetuned-sst-2-english,9376890.0,Ezi,model card could be improved,Completed, https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/discussions/3,Merged 
+t5-11b,201615.0,Marissa,model card could be improved,Completed,https://huggingface.co/t5-11b/discussions/1,Merged 
+t5-3b,84162.0,Marissa,model card could be improved,Completed,https://huggingface.co/t5-3b/discussions/2,Merged 
+t5-base,814908.0,Marissa,model card could be improved,Completed,https://huggingface.co/t5-base/discussions/3,Merged 
+t5-large,195044.0,Marissa,model card could be improved,Completed,https://huggingface.co/t5-large/discussions/3,Merged 
+t5-small,1166479.0,Marissa,model card could be improved,Completed,https://huggingface.co/t5-small/discussions/1,Merged 
+distilbert-base-cased,378389.0,Marissa,model card could be improved,Completed,https://huggingface.co/distilbert-base-cased/discussions,Merged 
+distilbert-base-multilingual-cased,2916793.0,Marissa,model card could be improved,Completed,https://huggingface.co/distilbert-base-multilingual-cased/discussions/1 ,Merged 
+distilroberta-base,434905.0,Marissa,model card could be improved,Completed,https://huggingface.co/distilroberta-base/discussions/1,Merged 
+bert-base-cased-finetuned-mrpc,21078.0,Ezi,no model card,Awating clarification , https://huggingface.slack.com/archives/C025H22A3ND/p1657050019314989?thread_ts=1656698714.451809&cid=C025H22A3ND ,Merged 
+camembert-base,350137.0,Ezi,model card could be improved,Completed,https://huggingface.co/camembert-base/discussions/1,Merged 

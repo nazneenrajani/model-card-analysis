@@ -1,0 +1,5087 @@
+{
+    "took" : 3080,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 140,
+      "successful" : 140,
+      "skipped" : 124,
+      "failed" : 0
+    },
+    "hits" : {
+      "max_score" : null,
+      "hits" : [ ]
+    },
+    "aggregations" : {
+      "model" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 0,
+        "buckets" : [
+          {
+            "key" : "distilbert-base-uncased-finetuned-sst-2-english",
+            "doc_count" : 1371910,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 4422,
+                  "total_downloads" : {
+                    "value" : 11784.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 114573,
+                  "total_downloads" : {
+                    "value" : 1527042.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 116940,
+                  "total_downloads" : {
+                    "value" : 1129808.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 98904,
+                  "total_downloads" : {
+                    "value" : 452978.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 97698,
+                  "total_downloads" : {
+                    "value" : 480424.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 100873,
+                  "total_downloads" : {
+                    "value" : 475695.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 115266,
+                  "total_downloads" : {
+                    "value" : 488095.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 108735,
+                  "total_downloads" : {
+                    "value" : 518487.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 91350,
+                  "total_downloads" : {
+                    "value" : 395319.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 60198,
+                  "total_downloads" : {
+                    "value" : 193895.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 66122,
+                  "total_downloads" : {
+                    "value" : 215309.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 65576,
+                  "total_downloads" : {
+                    "value" : 247961.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 68743,
+                  "total_downloads" : {
+                    "value" : 196404.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 81030,
+                  "total_downloads" : {
+                    "value" : 253984.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 74505,
+                  "total_downloads" : {
+                    "value" : 286854.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 55126,
+                  "total_downloads" : {
+                    "value" : 186912.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 51849,
+                  "total_downloads" : {
+                    "value" : 140038.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "bert-base-chinese",
+            "doc_count" : 829232,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 4562,
+                  "total_downloads" : {
+                    "value" : 8640.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 55250,
+                  "total_downloads" : {
+                    "value" : 114406.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 51877,
+                  "total_downloads" : {
+                    "value" : 89798.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 65687,
+                  "total_downloads" : {
+                    "value" : 137616.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 69885,
+                  "total_downloads" : {
+                    "value" : 109993.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 57451,
+                  "total_downloads" : {
+                    "value" : 85305.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 54393,
+                  "total_downloads" : {
+                    "value" : 87981.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 57847,
+                  "total_downloads" : {
+                    "value" : 158391.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 49846,
+                  "total_downloads" : {
+                    "value" : 107415.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 45854,
+                  "total_downloads" : {
+                    "value" : 83764.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 36489,
+                  "total_downloads" : {
+                    "value" : 49060.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 44314,
+                  "total_downloads" : {
+                    "value" : 98383.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 48281,
+                  "total_downloads" : {
+                    "value" : 85418.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 50683,
+                  "total_downloads" : {
+                    "value" : 113424.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 45332,
+                  "total_downloads" : {
+                    "value" : 110368.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 46738,
+                  "total_downloads" : {
+                    "value" : 103306.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 44743,
+                  "total_downloads" : {
+                    "value" : 143629.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-roberta-large-finetuned-conll03-english",
+            "doc_count" : 768258,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 109,
+                  "total_downloads" : {
+                    "value" : 117.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 1658,
+                  "total_downloads" : {
+                    "value" : 1832.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 41155,
+                  "total_downloads" : {
+                    "value" : 58642.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 38750,
+                  "total_downloads" : {
+                    "value" : 53981.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 57516,
+                  "total_downloads" : {
+                    "value" : 131516.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 49547,
+                  "total_downloads" : {
+                    "value" : 122574.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 46216,
+                  "total_downloads" : {
+                    "value" : 137048.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 43296,
+                  "total_downloads" : {
+                    "value" : 211400.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 21968,
+                  "total_downloads" : {
+                    "value" : 138145.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 174504,
+                  "total_downloads" : {
+                    "value" : 328453.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 180684,
+                  "total_downloads" : {
+                    "value" : 313194.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 83497,
+                  "total_downloads" : {
+                    "value" : 168432.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 17134,
+                  "total_downloads" : {
+                    "value" : 36407.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 4589,
+                  "total_downloads" : {
+                    "value" : 8821.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 2035,
+                  "total_downloads" : {
+                    "value" : 3223.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 5600,
+                  "total_downloads" : {
+                    "value" : 11582.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "t5-base",
+            "doc_count" : 518674,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1406,
+                  "total_downloads" : {
+                    "value" : 1864.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 25101,
+                  "total_downloads" : {
+                    "value" : 35515.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 29275,
+                  "total_downloads" : {
+                    "value" : 41091.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 36599,
+                  "total_downloads" : {
+                    "value" : 57563.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 37112,
+                  "total_downloads" : {
+                    "value" : 58753.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 23491,
+                  "total_downloads" : {
+                    "value" : 32222.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 28961,
+                  "total_downloads" : {
+                    "value" : 46992.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 36165,
+                  "total_downloads" : {
+                    "value" : 55481.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 26873,
+                  "total_downloads" : {
+                    "value" : 43669.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 37076,
+                  "total_downloads" : {
+                    "value" : 68492.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 37085,
+                  "total_downloads" : {
+                    "value" : 67365.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 41417,
+                  "total_downloads" : {
+                    "value" : 120286.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 45977,
+                  "total_downloads" : {
+                    "value" : 126736.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 49364,
+                  "total_downloads" : {
+                    "value" : 133733.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 34971,
+                  "total_downloads" : {
+                    "value" : 102818.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 27801,
+                  "total_downloads" : {
+                    "value" : 60032.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "t5-small",
+            "doc_count" : 410945,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 2386,
+                  "total_downloads" : {
+                    "value" : 3171.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 23799,
+                  "total_downloads" : {
+                    "value" : 33428.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 20412,
+                  "total_downloads" : {
+                    "value" : 28114.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 21978,
+                  "total_downloads" : {
+                    "value" : 37817.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 18472,
+                  "total_downloads" : {
+                    "value" : 26374.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 16201,
+                  "total_downloads" : {
+                    "value" : 25105.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 25101,
+                  "total_downloads" : {
+                    "value" : 55819.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 39371,
+                  "total_downloads" : {
+                    "value" : 102801.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 25602,
+                  "total_downloads" : {
+                    "value" : 54122.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 28935,
+                  "total_downloads" : {
+                    "value" : 174917.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 30928,
+                  "total_downloads" : {
+                    "value" : 98914.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 33130,
+                  "total_downloads" : {
+                    "value" : 111263.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 32991,
+                  "total_downloads" : {
+                    "value" : 76409.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 34478,
+                  "total_downloads" : {
+                    "value" : 89850.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 34445,
+                  "total_downloads" : {
+                    "value" : 99968.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 22716,
+                  "total_downloads" : {
+                    "value" : 42518.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "distilroberta-base",
+            "doc_count" : 252688,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 2826,
+                  "total_downloads" : {
+                    "value" : 10938.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 44882,
+                  "total_downloads" : {
+                    "value" : 125092.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 49420,
+                  "total_downloads" : {
+                    "value" : 111017.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 40343,
+                  "total_downloads" : {
+                    "value" : 107120.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 11683,
+                  "total_downloads" : {
+                    "value" : 38075.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 11346,
+                  "total_downloads" : {
+                    "value" : 58951.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 7753,
+                  "total_downloads" : {
+                    "value" : 13450.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 9129,
+                  "total_downloads" : {
+                    "value" : 23903.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 9167,
+                  "total_downloads" : {
+                    "value" : 18736.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 7956,
+                  "total_downloads" : {
+                    "value" : 16183.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 9419,
+                  "total_downloads" : {
+                    "value" : 17434.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 7338,
+                  "total_downloads" : {
+                    "value" : 10380.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 7218,
+                  "total_downloads" : {
+                    "value" : 10888.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 9626,
+                  "total_downloads" : {
+                    "value" : 12790.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 10021,
+                  "total_downloads" : {
+                    "value" : 16018.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 7833,
+                  "total_downloads" : {
+                    "value" : 12315.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 6728,
+                  "total_downloads" : {
+                    "value" : 13117.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "gpt2-medium",
+            "doc_count" : 227549,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 627,
+                  "total_downloads" : {
+                    "value" : 707.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 7041,
+                  "total_downloads" : {
+                    "value" : 9631.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 8326,
+                  "total_downloads" : {
+                    "value" : 15627.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 8049,
+                  "total_downloads" : {
+                    "value" : 10552.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 5618,
+                  "total_downloads" : {
+                    "value" : 7611.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 13675,
+                  "total_downloads" : {
+                    "value" : 35245.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 17998,
+                  "total_downloads" : {
+                    "value" : 44340.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 20239,
+                  "total_downloads" : {
+                    "value" : 45974.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 16290,
+                  "total_downloads" : {
+                    "value" : 36166.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 27549,
+                  "total_downloads" : {
+                    "value" : 75177.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 18213,
+                  "total_downloads" : {
+                    "value" : 39163.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 17444,
+                  "total_downloads" : {
+                    "value" : 38315.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 17079,
+                  "total_downloads" : {
+                    "value" : 35936.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 16376,
+                  "total_downloads" : {
+                    "value" : 35926.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 15858,
+                  "total_downloads" : {
+                    "value" : 35799.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 17167,
+                  "total_downloads" : {
+                    "value" : 36556.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "camembert-base",
+            "doc_count" : 224164,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 2615,
+                  "total_downloads" : {
+                    "value" : 2854.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 22950,
+                  "total_downloads" : {
+                    "value" : 29249.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 11842,
+                  "total_downloads" : {
+                    "value" : 14414.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 11606,
+                  "total_downloads" : {
+                    "value" : 13916.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 10645,
+                  "total_downloads" : {
+                    "value" : 12168.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 9543,
+                  "total_downloads" : {
+                    "value" : 11544.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 8773,
+                  "total_downloads" : {
+                    "value" : 9915.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 11489,
+                  "total_downloads" : {
+                    "value" : 13484.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 11316,
+                  "total_downloads" : {
+                    "value" : 14529.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 11780,
+                  "total_downloads" : {
+                    "value" : 20399.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 13314,
+                  "total_downloads" : {
+                    "value" : 17451.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 17416,
+                  "total_downloads" : {
+                    "value" : 21027.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 20552,
+                  "total_downloads" : {
+                    "value" : 26861.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 20997,
+                  "total_downloads" : {
+                    "value" : 28731.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 11090,
+                  "total_downloads" : {
+                    "value" : 11785.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 18509,
+                  "total_downloads" : {
+                    "value" : 24103.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 9727,
+                  "total_downloads" : {
+                    "value" : 11353.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "distilbert-base-cased-distilled-squad",
+            "doc_count" : 185341,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 261,
+                  "total_downloads" : {
+                    "value" : 293.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 8859,
+                  "total_downloads" : {
+                    "value" : 22468.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 10799,
+                  "total_downloads" : {
+                    "value" : 35632.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 11299,
+                  "total_downloads" : {
+                    "value" : 32190.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 13566,
+                  "total_downloads" : {
+                    "value" : 54837.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 7375,
+                  "total_downloads" : {
+                    "value" : 27178.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 8477,
+                  "total_downloads" : {
+                    "value" : 29987.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 10104,
+                  "total_downloads" : {
+                    "value" : 32703.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 10675,
+                  "total_downloads" : {
+                    "value" : 37680.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 11439,
+                  "total_downloads" : {
+                    "value" : 53557.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 8257,
+                  "total_downloads" : {
+                    "value" : 37656.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 12217,
+                  "total_downloads" : {
+                    "value" : 75745.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 12957,
+                  "total_downloads" : {
+                    "value" : 75469.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 12936,
+                  "total_downloads" : {
+                    "value" : 70943.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 15291,
+                  "total_downloads" : {
+                    "value" : 89916.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 15049,
+                  "total_downloads" : {
+                    "value" : 97416.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 15780,
+                  "total_downloads" : {
+                    "value" : 106400.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "distilbert-base-cased",
+            "doc_count" : 151783,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 424,
+                  "total_downloads" : {
+                    "value" : 529.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 5490,
+                  "total_downloads" : {
+                    "value" : 7893.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 8538,
+                  "total_downloads" : {
+                    "value" : 12046.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 11026,
+                  "total_downloads" : {
+                    "value" : 34067.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 9313,
+                  "total_downloads" : {
+                    "value" : 13520.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 6100,
+                  "total_downloads" : {
+                    "value" : 9275.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 14750,
+                  "total_downloads" : {
+                    "value" : 88596.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 10054,
+                  "total_downloads" : {
+                    "value" : 19186.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 12323,
+                  "total_downloads" : {
+                    "value" : 21176.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 11517,
+                  "total_downloads" : {
+                    "value" : 17606.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 10180,
+                  "total_downloads" : {
+                    "value" : 13003.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 8552,
+                  "total_downloads" : {
+                    "value" : 12063.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 9460,
+                  "total_downloads" : {
+                    "value" : 13583.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 7173,
+                  "total_downloads" : {
+                    "value" : 15519.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 8541,
+                  "total_downloads" : {
+                    "value" : 12753.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 9252,
+                  "total_downloads" : {
+                    "value" : 15030.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 9090,
+                  "total_downloads" : {
+                    "value" : 16371.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "distilbert-base-multilingual-cased",
+            "doc_count" : 136656,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 252,
+                  "total_downloads" : {
+                    "value" : 402.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 6562,
+                  "total_downloads" : {
+                    "value" : 9943.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 12290,
+                  "total_downloads" : {
+                    "value" : 58556.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 11824,
+                  "total_downloads" : {
+                    "value" : 75758.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 11540,
+                  "total_downloads" : {
+                    "value" : 48851.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 9897,
+                  "total_downloads" : {
+                    "value" : 44043.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 8628,
+                  "total_downloads" : {
+                    "value" : 30669.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 8221,
+                  "total_downloads" : {
+                    "value" : 26077.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 7017,
+                  "total_downloads" : {
+                    "value" : 15010.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 6740,
+                  "total_downloads" : {
+                    "value" : 19805.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 5531,
+                  "total_downloads" : {
+                    "value" : 10886.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 6037,
+                  "total_downloads" : {
+                    "value" : 16994.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 7749,
+                  "total_downloads" : {
+                    "value" : 23785.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 7175,
+                  "total_downloads" : {
+                    "value" : 18773.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 6880,
+                  "total_downloads" : {
+                    "value" : 24972.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 12031,
+                  "total_downloads" : {
+                    "value" : 69685.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 8282,
+                  "total_downloads" : {
+                    "value" : 48019.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "t5-large",
+            "doc_count" : 134351,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 517,
+                  "total_downloads" : {
+                    "value" : 1106.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 6875,
+                  "total_downloads" : {
+                    "value" : 12271.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 6465,
+                  "total_downloads" : {
+                    "value" : 12730.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 7184,
+                  "total_downloads" : {
+                    "value" : 17067.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 7647,
+                  "total_downloads" : {
+                    "value" : 21626.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 5605,
+                  "total_downloads" : {
+                    "value" : 8012.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 5131,
+                  "total_downloads" : {
+                    "value" : 8585.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 8454,
+                  "total_downloads" : {
+                    "value" : 18966.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 7475,
+                  "total_downloads" : {
+                    "value" : 15970.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 7833,
+                  "total_downloads" : {
+                    "value" : 15552.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 11345,
+                  "total_downloads" : {
+                    "value" : 18623.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 18924,
+                  "total_downloads" : {
+                    "value" : 28886.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 11922,
+                  "total_downloads" : {
+                    "value" : 28768.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 8386,
+                  "total_downloads" : {
+                    "value" : 19105.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 11831,
+                  "total_downloads" : {
+                    "value" : 23941.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 8757,
+                  "total_downloads" : {
+                    "value" : 19327.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "gpt2-large",
+            "doc_count" : 130260,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1518,
+                  "total_downloads" : {
+                    "value" : 6421.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 11518,
+                  "total_downloads" : {
+                    "value" : 86315.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 13949,
+                  "total_downloads" : {
+                    "value" : 43073.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 13155,
+                  "total_downloads" : {
+                    "value" : 16769.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 7272,
+                  "total_downloads" : {
+                    "value" : 9775.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 5266,
+                  "total_downloads" : {
+                    "value" : 6547.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 10497,
+                  "total_downloads" : {
+                    "value" : 15976.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 11668,
+                  "total_downloads" : {
+                    "value" : 49111.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 7186,
+                  "total_downloads" : {
+                    "value" : 46692.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 5721,
+                  "total_downloads" : {
+                    "value" : 8386.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 4988,
+                  "total_downloads" : {
+                    "value" : 7952.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 6708,
+                  "total_downloads" : {
+                    "value" : 10750.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 6991,
+                  "total_downloads" : {
+                    "value" : 12952.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 5970,
+                  "total_downloads" : {
+                    "value" : 10980.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 7515,
+                  "total_downloads" : {
+                    "value" : 15645.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 10338,
+                  "total_downloads" : {
+                    "value" : 12793.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "roberta-large-mnli",
+            "doc_count" : 90674,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 201,
+                  "total_downloads" : {
+                    "value" : 272.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 3514,
+                  "total_downloads" : {
+                    "value" : 4603.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 8489,
+                  "total_downloads" : {
+                    "value" : 200028.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 3236,
+                  "total_downloads" : {
+                    "value" : 10104.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 5853,
+                  "total_downloads" : {
+                    "value" : 22182.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 2859,
+                  "total_downloads" : {
+                    "value" : 3427.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 5625,
+                  "total_downloads" : {
+                    "value" : 11841.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 7005,
+                  "total_downloads" : {
+                    "value" : 9487.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 3939,
+                  "total_downloads" : {
+                    "value" : 4900.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 2923,
+                  "total_downloads" : {
+                    "value" : 3631.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 3125,
+                  "total_downloads" : {
+                    "value" : 4210.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 2102,
+                  "total_downloads" : {
+                    "value" : 2556.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 3426,
+                  "total_downloads" : {
+                    "value" : 5423.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 34116,
+                  "total_downloads" : {
+                    "value" : 35109.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 2183,
+                  "total_downloads" : {
+                    "value" : 2819.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 2078,
+                  "total_downloads" : {
+                    "value" : 2809.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "distilbert-base-uncased-distilled-squad",
+            "doc_count" : 63050,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 73,
+                  "total_downloads" : {
+                    "value" : 85.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 3082,
+                  "total_downloads" : {
+                    "value" : 18915.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 4391,
+                  "total_downloads" : {
+                    "value" : 14948.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 2644,
+                  "total_downloads" : {
+                    "value" : 14721.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 3041,
+                  "total_downloads" : {
+                    "value" : 16656.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 1903,
+                  "total_downloads" : {
+                    "value" : 10946.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 2948,
+                  "total_downloads" : {
+                    "value" : 16550.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 2328,
+                  "total_downloads" : {
+                    "value" : 8931.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 4307,
+                  "total_downloads" : {
+                    "value" : 22772.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 2369,
+                  "total_downloads" : {
+                    "value" : 10031.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 3898,
+                  "total_downloads" : {
+                    "value" : 23546.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 4241,
+                  "total_downloads" : {
+                    "value" : 22451.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 6597,
+                  "total_downloads" : {
+                    "value" : 42632.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 4292,
+                  "total_downloads" : {
+                    "value" : 32969.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 5193,
+                  "total_downloads" : {
+                    "value" : 39387.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 7615,
+                  "total_downloads" : {
+                    "value" : 53436.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 4128,
+                  "total_downloads" : {
+                    "value" : 21424.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "roberta-base-openai-detector",
+            "doc_count" : 34428,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1765,
+                  "total_downloads" : {
+                    "value" : 8789.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 15075,
+                  "total_downloads" : {
+                    "value" : 68803.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 10118,
+                  "total_downloads" : {
+                    "value" : 47821.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 6403,
+                  "total_downloads" : {
+                    "value" : 29575.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 43,
+                  "total_downloads" : {
+                    "value" : 58.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 39,
+                  "total_downloads" : {
+                    "value" : 50.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 36,
+                  "total_downloads" : {
+                    "value" : 45.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 59,
+                  "total_downloads" : {
+                    "value" : 66.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 14,
+                  "total_downloads" : {
+                    "value" : 23.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 7,
+                  "total_downloads" : {
+                    "value" : 11.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 20,
+                  "total_downloads" : {
+                    "value" : 25.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 23,
+                  "total_downloads" : {
+                    "value" : 30.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 33,
+                  "total_downloads" : {
+                    "value" : 51.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 285,
+                  "total_downloads" : {
+                    "value" : 500.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 365,
+                  "total_downloads" : {
+                    "value" : 643.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 143,
+                  "total_downloads" : {
+                    "value" : 162.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "openai-gpt",
+            "doc_count" : 29049,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 212,
+                  "total_downloads" : {
+                    "value" : 264.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 951,
+                  "total_downloads" : {
+                    "value" : 1295.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 1493,
+                  "total_downloads" : {
+                    "value" : 1906.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 1856,
+                  "total_downloads" : {
+                    "value" : 2326.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 1662,
+                  "total_downloads" : {
+                    "value" : 2115.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 1831,
+                  "total_downloads" : {
+                    "value" : 2337.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 1805,
+                  "total_downloads" : {
+                    "value" : 2337.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 2151,
+                  "total_downloads" : {
+                    "value" : 2892.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 2441,
+                  "total_downloads" : {
+                    "value" : 3657.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 1970,
+                  "total_downloads" : {
+                    "value" : 2503.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 1911,
+                  "total_downloads" : {
+                    "value" : 2496.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 2028,
+                  "total_downloads" : {
+                    "value" : 2780.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 2259,
+                  "total_downloads" : {
+                    "value" : 3103.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 2820,
+                  "total_downloads" : {
+                    "value" : 3535.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 1671,
+                  "total_downloads" : {
+                    "value" : 2479.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 1988,
+                  "total_downloads" : {
+                    "value" : 2487.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "t5-3b",
+            "doc_count" : 27582,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 44,
+                  "total_downloads" : {
+                    "value" : 52.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 655,
+                  "total_downloads" : {
+                    "value" : 1671.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 1091,
+                  "total_downloads" : {
+                    "value" : 1851.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 1176,
+                  "total_downloads" : {
+                    "value" : 1856.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 1798,
+                  "total_downloads" : {
+                    "value" : 2752.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 1723,
+                  "total_downloads" : {
+                    "value" : 2056.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 2102,
+                  "total_downloads" : {
+                    "value" : 2512.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 3573,
+                  "total_downloads" : {
+                    "value" : 4872.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 1962,
+                  "total_downloads" : {
+                    "value" : 3021.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 1570,
+                  "total_downloads" : {
+                    "value" : 2787.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 2328,
+                  "total_downloads" : {
+                    "value" : 5236.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 2153,
+                  "total_downloads" : {
+                    "value" : 4378.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 1673,
+                  "total_downloads" : {
+                    "value" : 4356.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 1668,
+                  "total_downloads" : {
+                    "value" : 7731.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 1898,
+                  "total_downloads" : {
+                    "value" : 6989.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 2168,
+                  "total_downloads" : {
+                    "value" : 11958.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-clm-ende-1024",
+            "doc_count" : 18850,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 244,
+                  "total_downloads" : {
+                    "value" : 331.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 2145,
+                  "total_downloads" : {
+                    "value" : 3131.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 1623,
+                  "total_downloads" : {
+                    "value" : 3148.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 1873,
+                  "total_downloads" : {
+                    "value" : 2992.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 1938,
+                  "total_downloads" : {
+                    "value" : 2742.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 1677,
+                  "total_downloads" : {
+                    "value" : 2727.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 1195,
+                  "total_downloads" : {
+                    "value" : 2182.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 1022,
+                  "total_downloads" : {
+                    "value" : 1158.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 629,
+                  "total_downloads" : {
+                    "value" : 1139.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 2397,
+                  "total_downloads" : {
+                    "value" : 2777.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 982,
+                  "total_downloads" : {
+                    "value" : 1281.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 4,
+                  "total_downloads" : {
+                    "value" : 8.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 580,
+                  "total_downloads" : {
+                    "value" : 1283.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 2538,
+                  "total_downloads" : {
+                    "value" : 3113.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "bert-base-cased-finetuned-mrpc",
+            "doc_count" : 15618,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 52,
+                  "total_downloads" : {
+                    "value" : 71.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 623,
+                  "total_downloads" : {
+                    "value" : 784.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 805,
+                  "total_downloads" : {
+                    "value" : 860.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 816,
+                  "total_downloads" : {
+                    "value" : 860.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 1688,
+                  "total_downloads" : {
+                    "value" : 1893.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 765,
+                  "total_downloads" : {
+                    "value" : 852.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 1419,
+                  "total_downloads" : {
+                    "value" : 1934.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 972,
+                  "total_downloads" : {
+                    "value" : 1078.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 1293,
+                  "total_downloads" : {
+                    "value" : 2343.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 944,
+                  "total_downloads" : {
+                    "value" : 1103.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 757,
+                  "total_downloads" : {
+                    "value" : 970.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 911,
+                  "total_downloads" : {
+                    "value" : 1040.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 845,
+                  "total_downloads" : {
+                    "value" : 1008.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 1221,
+                  "total_downloads" : {
+                    "value" : 1751.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 994,
+                  "total_downloads" : {
+                    "value" : 1517.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 764,
+                  "total_downloads" : {
+                    "value" : 911.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 749,
+                  "total_downloads" : {
+                    "value" : 972.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "t5-11b",
+            "doc_count" : 9100,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 128,
+                  "total_downloads" : {
+                    "value" : 263.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 127,
+                  "total_downloads" : {
+                    "value" : 249.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 151,
+                  "total_downloads" : {
+                    "value" : 370.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 243,
+                  "total_downloads" : {
+                    "value" : 1676.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 395,
+                  "total_downloads" : {
+                    "value" : 5703.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 369,
+                  "total_downloads" : {
+                    "value" : 4156.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 459,
+                  "total_downloads" : {
+                    "value" : 10750.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 428,
+                  "total_downloads" : {
+                    "value" : 21553.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 932,
+                  "total_downloads" : {
+                    "value" : 24739.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 784,
+                  "total_downloads" : {
+                    "value" : 20341.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 941,
+                  "total_downloads" : {
+                    "value" : 4850.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 843,
+                  "total_downloads" : {
+                    "value" : 5129.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 1193,
+                  "total_downloads" : {
+                    "value" : 5458.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 1213,
+                  "total_downloads" : {
+                    "value" : 6276.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 893,
+                  "total_downloads" : {
+                    "value" : 2884.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "transfo-xl-wt103",
+            "doc_count" : 4504,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 18,
+                  "total_downloads" : {
+                    "value" : 20.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 285,
+                  "total_downloads" : {
+                    "value" : 357.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 155,
+                  "total_downloads" : {
+                    "value" : 175.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 351,
+                  "total_downloads" : {
+                    "value" : 398.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 155,
+                  "total_downloads" : {
+                    "value" : 196.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 175,
+                  "total_downloads" : {
+                    "value" : 196.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 165,
+                  "total_downloads" : {
+                    "value" : 218.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 426,
+                  "total_downloads" : {
+                    "value" : 470.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 236,
+                  "total_downloads" : {
+                    "value" : 272.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 290,
+                  "total_downloads" : {
+                    "value" : 355.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 424,
+                  "total_downloads" : {
+                    "value" : 555.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 495,
+                  "total_downloads" : {
+                    "value" : 756.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 379,
+                  "total_downloads" : {
+                    "value" : 440.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 301,
+                  "total_downloads" : {
+                    "value" : 322.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 437,
+                  "total_downloads" : {
+                    "value" : 974.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 212,
+                  "total_downloads" : {
+                    "value" : 294.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-100-1280",
+            "doc_count" : 3530,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 5.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 278,
+                  "total_downloads" : {
+                    "value" : 315.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 691,
+                  "total_downloads" : {
+                    "value" : 959.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 295,
+                  "total_downloads" : {
+                    "value" : 409.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 306,
+                  "total_downloads" : {
+                    "value" : 395.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 154,
+                  "total_downloads" : {
+                    "value" : 165.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 188,
+                  "total_downloads" : {
+                    "value" : 189.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 27,
+                  "total_downloads" : {
+                    "value" : 28.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 103,
+                  "total_downloads" : {
+                    "value" : 120.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 54,
+                  "total_downloads" : {
+                    "value" : 64.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 161,
+                  "total_downloads" : {
+                    "value" : 216.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 58,
+                  "total_downloads" : {
+                    "value" : 68.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 42,
+                  "total_downloads" : {
+                    "value" : 68.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 270,
+                  "total_downloads" : {
+                    "value" : 371.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 718,
+                  "total_downloads" : {
+                    "value" : 738.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 180,
+                  "total_downloads" : {
+                    "value" : 182.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-roberta-large-finetuned-conll03-german",
+            "doc_count" : 3394,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 20,
+                  "total_downloads" : {
+                    "value" : 33.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 86,
+                  "total_downloads" : {
+                    "value" : 143.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 88,
+                  "total_downloads" : {
+                    "value" : 129.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 345,
+                  "total_downloads" : {
+                    "value" : 423.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 253,
+                  "total_downloads" : {
+                    "value" : 297.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 129,
+                  "total_downloads" : {
+                    "value" : 203.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 165,
+                  "total_downloads" : {
+                    "value" : 184.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 142,
+                  "total_downloads" : {
+                    "value" : 176.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 349,
+                  "total_downloads" : {
+                    "value" : 461.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 165,
+                  "total_downloads" : {
+                    "value" : 234.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 452,
+                  "total_downloads" : {
+                    "value" : 570.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 163,
+                  "total_downloads" : {
+                    "value" : 250.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 76,
+                  "total_downloads" : {
+                    "value" : 81.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 576,
+                  "total_downloads" : {
+                    "value" : 1294.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 385,
+                  "total_downloads" : {
+                    "value" : 575.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-en-2048",
+            "doc_count" : 3213,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 42,
+                  "total_downloads" : {
+                    "value" : 42.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 506,
+                  "total_downloads" : {
+                    "value" : 582.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 324,
+                  "total_downloads" : {
+                    "value" : 369.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 222,
+                  "total_downloads" : {
+                    "value" : 252.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 102,
+                  "total_downloads" : {
+                    "value" : 114.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 121,
+                  "total_downloads" : {
+                    "value" : 134.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 160,
+                  "total_downloads" : {
+                    "value" : 174.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 149,
+                  "total_downloads" : {
+                    "value" : 187.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 214,
+                  "total_downloads" : {
+                    "value" : 263.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 199,
+                  "total_downloads" : {
+                    "value" : 231.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 254,
+                  "total_downloads" : {
+                    "value" : 1322.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 134,
+                  "total_downloads" : {
+                    "value" : 191.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 254,
+                  "total_downloads" : {
+                    "value" : 287.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 310,
+                  "total_downloads" : {
+                    "value" : 370.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 136,
+                  "total_downloads" : {
+                    "value" : 148.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 86,
+                  "total_downloads" : {
+                    "value" : 93.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "ctrl",
+            "doc_count" : 3158,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 66,
+                  "total_downloads" : {
+                    "value" : 73.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 504,
+                  "total_downloads" : {
+                    "value" : 535.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 517,
+                  "total_downloads" : {
+                    "value" : 562.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 178,
+                  "total_downloads" : {
+                    "value" : 207.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 82,
+                  "total_downloads" : {
+                    "value" : 89.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 169,
+                  "total_downloads" : {
+                    "value" : 176.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 96,
+                  "total_downloads" : {
+                    "value" : 109.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 89,
+                  "total_downloads" : {
+                    "value" : 99.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 228,
+                  "total_downloads" : {
+                    "value" : 251.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 142,
+                  "total_downloads" : {
+                    "value" : 158.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 125,
+                  "total_downloads" : {
+                    "value" : 138.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 145,
+                  "total_downloads" : {
+                    "value" : 155.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 149,
+                  "total_downloads" : {
+                    "value" : 162.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 245,
+                  "total_downloads" : {
+                    "value" : 266.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 148,
+                  "total_downloads" : {
+                    "value" : 163.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 47,
+                  "total_downloads" : {
+                    "value" : 53.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 228,
+                  "total_downloads" : {
+                    "value" : 236.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-ende-1024",
+            "doc_count" : 1809,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 4,
+                  "total_downloads" : {
+                    "value" : 4.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 404,
+                  "total_downloads" : {
+                    "value" : 404.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 33,
+                  "total_downloads" : {
+                    "value" : 43.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 36,
+                  "total_downloads" : {
+                    "value" : 41.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 64,
+                  "total_downloads" : {
+                    "value" : 69.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 75,
+                  "total_downloads" : {
+                    "value" : 84.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 42,
+                  "total_downloads" : {
+                    "value" : 43.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 57,
+                  "total_downloads" : {
+                    "value" : 60.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 16,
+                  "total_downloads" : {
+                    "value" : 20.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 173,
+                  "total_downloads" : {
+                    "value" : 320.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 26,
+                  "total_downloads" : {
+                    "value" : 26.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 146,
+                  "total_downloads" : {
+                    "value" : 208.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 188,
+                  "total_downloads" : {
+                    "value" : 216.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 366,
+                  "total_downloads" : {
+                    "value" : 415.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 119,
+                  "total_downloads" : {
+                    "value" : 124.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 60,
+                  "total_downloads" : {
+                    "value" : 61.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "roberta-large-openai-detector",
+            "doc_count" : 941,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 26,
+                  "total_downloads" : {
+                    "value" : 34.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 67,
+                  "total_downloads" : {
+                    "value" : 89.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 122,
+                  "total_downloads" : {
+                    "value" : 240.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 99,
+                  "total_downloads" : {
+                    "value" : 147.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 16,
+                  "total_downloads" : {
+                    "value" : 20.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 21,
+                  "total_downloads" : {
+                    "value" : 25.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 90,
+                  "total_downloads" : {
+                    "value" : 96.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 30,
+                  "total_downloads" : {
+                    "value" : 32.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 60,
+                  "total_downloads" : {
+                    "value" : 64.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 106,
+                  "total_downloads" : {
+                    "value" : 127.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 41,
+                  "total_downloads" : {
+                    "value" : 44.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 80,
+                  "total_downloads" : {
+                    "value" : 99.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 43,
+                  "total_downloads" : {
+                    "value" : 46.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 34,
+                  "total_downloads" : {
+                    "value" : 75.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 67,
+                  "total_downloads" : {
+                    "value" : 151.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 39,
+                  "total_downloads" : {
+                    "value" : 43.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-enfr-1024",
+            "doc_count" : 657,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 148,
+                  "total_downloads" : {
+                    "value" : 178.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 44,
+                  "total_downloads" : {
+                    "value" : 44.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 58,
+                  "total_downloads" : {
+                    "value" : 58.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 52,
+                  "total_downloads" : {
+                    "value" : 63.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 25,
+                  "total_downloads" : {
+                    "value" : 25.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 21,
+                  "total_downloads" : {
+                    "value" : 21.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 22,
+                  "total_downloads" : {
+                    "value" : 22.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 34,
+                  "total_downloads" : {
+                    "value" : 34.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 25,
+                  "total_downloads" : {
+                    "value" : 26.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 68,
+                  "total_downloads" : {
+                    "value" : 68.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 32,
+                  "total_downloads" : {
+                    "value" : 32.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 50,
+                  "total_downloads" : {
+                    "value" : 51.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 30,
+                  "total_downloads" : {
+                    "value" : 35.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 32,
+                  "total_downloads" : {
+                    "value" : 32.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 16,
+                  "total_downloads" : {
+                    "value" : 16.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-tlm-xnli15-1024",
+            "doc_count" : 604,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 155,
+                  "total_downloads" : {
+                    "value" : 185.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 13,
+                  "total_downloads" : {
+                    "value" : 15.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 7,
+                  "total_downloads" : {
+                    "value" : 7.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 78,
+                  "total_downloads" : {
+                    "value" : 83.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 101,
+                  "total_downloads" : {
+                    "value" : 101.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 24,
+                  "total_downloads" : {
+                    "value" : 27.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 22,
+                  "total_downloads" : {
+                    "value" : 23.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 41,
+                  "total_downloads" : {
+                    "value" : 44.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 15,
+                  "total_downloads" : {
+                    "value" : 17.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 54,
+                  "total_downloads" : {
+                    "value" : 122.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 32,
+                  "total_downloads" : {
+                    "value" : 48.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 50,
+                  "total_downloads" : {
+                    "value" : 140.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-roberta-large-finetuned-conll02-dutch",
+            "doc_count" : 231,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 21,
+                  "total_downloads" : {
+                    "value" : 21.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 24,
+                  "total_downloads" : {
+                    "value" : 27.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 21,
+                  "total_downloads" : {
+                    "value" : 24.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 17,
+                  "total_downloads" : {
+                    "value" : 17.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 22,
+                  "total_downloads" : {
+                    "value" : 22.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 17,
+                  "total_downloads" : {
+                    "value" : 19.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 19,
+                  "total_downloads" : {
+                    "value" : 19.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 12,
+                  "total_downloads" : {
+                    "value" : 12.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 15,
+                  "total_downloads" : {
+                    "value" : 15.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 8,
+                  "total_downloads" : {
+                    "value" : 8.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 10,
+                  "total_downloads" : {
+                    "value" : 10.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 19,
+                  "total_downloads" : {
+                    "value" : 26.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 22,
+                  "total_downloads" : {
+                    "value" : 22.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 3,
+                  "total_downloads" : {
+                    "value" : 3.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-clm-enfr-1024",
+            "doc_count" : 216,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 11,
+                  "total_downloads" : {
+                    "value" : 11.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 10,
+                  "total_downloads" : {
+                    "value" : 10.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 21,
+                  "total_downloads" : {
+                    "value" : 21.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 61,
+                  "total_downloads" : {
+                    "value" : 64.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 26,
+                  "total_downloads" : {
+                    "value" : 26.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 14,
+                  "total_downloads" : {
+                    "value" : 14.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 18,
+                  "total_downloads" : {
+                    "value" : 18.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 7,
+                  "total_downloads" : {
+                    "value" : 7.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 10,
+                  "total_downloads" : {
+                    "value" : 12.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 7,
+                  "total_downloads" : {
+                    "value" : 7.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 13,
+                  "total_downloads" : {
+                    "value" : 13.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 4,
+                  "total_downloads" : {
+                    "value" : 4.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-17-1280",
+            "doc_count" : 199,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 3,
+                  "total_downloads" : {
+                    "value" : 3.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 33,
+                  "total_downloads" : {
+                    "value" : 35.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 17,
+                  "total_downloads" : {
+                    "value" : 18.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 9,
+                  "total_downloads" : {
+                    "value" : 9.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 5.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 16,
+                  "total_downloads" : {
+                    "value" : 16.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 4,
+                  "total_downloads" : {
+                    "value" : 4.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 34,
+                  "total_downloads" : {
+                    "value" : 34.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 3,
+                  "total_downloads" : {
+                    "value" : 3.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 16,
+                  "total_downloads" : {
+                    "value" : 16.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 8,
+                  "total_downloads" : {
+                    "value" : 8.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 32,
+                  "total_downloads" : {
+                    "value" : 33.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 12,
+                  "total_downloads" : {
+                    "value" : 12.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 5.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-xnli15-1024",
+            "doc_count" : 164,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-04-25T00:00:00.000Z",
+                  "key" : 1650844800000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 23,
+                  "total_downloads" : {
+                    "value" : 38.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 11,
+                  "total_downloads" : {
+                    "value" : 11.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 4,
+                  "total_downloads" : {
+                    "value" : 4.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 25,
+                  "total_downloads" : {
+                    "value" : 25.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 10,
+                  "total_downloads" : {
+                    "value" : 10.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 7.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 5.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 20,
+                  "total_downloads" : {
+                    "value" : 26.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 12,
+                  "total_downloads" : {
+                    "value" : 12.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-08T00:00:00.000Z",
+                  "key" : 1659916800000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-15T00:00:00.000Z",
+                  "key" : 1660521600000,
+                  "doc_count" : 31,
+                  "total_downloads" : {
+                    "value" : 34.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-mlm-enro-1024",
+            "doc_count" : 14,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-02T00:00:00.000Z",
+                  "key" : 1651449600000,
+                  "doc_count" : 6,
+                  "total_downloads" : {
+                    "value" : 6.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-09T00:00:00.000Z",
+                  "key" : 1652054400000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-16T00:00:00.000Z",
+                  "key" : 1652659200000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-23T00:00:00.000Z",
+                  "key" : 1653264000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 3,
+                  "total_downloads" : {
+                    "value" : 3.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 3.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key" : "xlm-roberta-large-finetuned-conll02-spanish",
+            "doc_count" : 14,
+            "weekly_downloads" : {
+              "buckets" : [
+                {
+                  "key_as_string" : "2022-05-30T00:00:00.000Z",
+                  "key" : 1653868800000,
+                  "doc_count" : 5,
+                  "total_downloads" : {
+                    "value" : 8.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-06T00:00:00.000Z",
+                  "key" : 1654473600000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-13T00:00:00.000Z",
+                  "key" : 1655078400000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-20T00:00:00.000Z",
+                  "key" : 1655683200000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-06-27T00:00:00.000Z",
+                  "key" : 1656288000000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-04T00:00:00.000Z",
+                  "key" : 1656892800000,
+                  "doc_count" : 2,
+                  "total_downloads" : {
+                    "value" : 2.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-11T00:00:00.000Z",
+                  "key" : 1657497600000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-18T00:00:00.000Z",
+                  "key" : 1658102400000,
+                  "doc_count" : 0,
+                  "total_downloads" : {
+                    "value" : 0.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-07-25T00:00:00.000Z",
+                  "key" : 1658707200000,
+                  "doc_count" : 1,
+                  "total_downloads" : {
+                    "value" : 1.0
+                  }
+                },
+                {
+                  "key_as_string" : "2022-08-01T00:00:00.000Z",
+                  "key" : 1659312000000,
+                  "doc_count" : 3,
+                  "total_downloads" : {
+                    "value" : 5.0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  
